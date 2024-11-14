@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+ 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    background-color: rgb(215, 234, 250);
+    min-height: 100vh;
+ 
+}
+
+html, body {
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: 5% auto;
+   
+ 
+}
+
+input{
+    height: 120px;
+    font-size: 2rem;
+    width: 20%;
+    padding-left: 5%;
+   
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto auto;
+    padding-top: 10px;
+  
+}
+
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 2px;
+    margin-bottom: 2%;
+
+    
+}
+
+
+.item.clicado{
+    background: rgb(193, 233, 193);
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.item-icone{
+    
+    text-align: center;
+    align-items: center;
+    font-size: 2rem; 
+    margin-left: 10px;
+}
+
+.item-nome{
+    
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item-botao{
+  
+    padding: 0px 10px;
+    display: flex;
+    width: 20%;
+    cursor: pointer;
+ 
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+.delete:hover{
+    background-color: rgb(199, 4, 4);
+    
+}
+
+.edit{
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.edit:hover{
+    background-color: rgb(190, 190, 12);
+}
+
+
+.mdi-check-circle{
+    color: green;
+    cursor: pointer;
+}
+
+.mdi-circle-outline{
+    cursor: pointer;
+}
+    
+
+
+
+.btn{
+    height: 63px;
+    
+}
